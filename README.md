@@ -4,8 +4,6 @@
 
 An end-to-end data analytics project covering CRM data cleaning, exploratory analysis, unit economics, and A/B test design for a German online coding school — aimed at identifying growth points in marketing and sales.
 
-This is a **learning project**, completed as part of a data analytics course with regular feedback and review from an instructor. The dataset, business scenario, and analytical tasks were provided as part of the coursework; the cleaning pipeline, analysis, unit economics model, and A/B test design were carried out independently and refined through instructor review cycles.
-
 ## 🎯 Objective
 
 The company collects lead, call, deal, and ad-spend data in its CRM but doesn't use it systematically for decisions. The project covers:
@@ -133,18 +131,13 @@ Sample size calculated as `n = 16 × (1−p) / (p × effect²)`; test duration d
 5. `unit_economics/unit_economic.xlsx` — open and recalculate in Excel/LibreOffice; all formulas are preserved.
 6. `dashboard/dashboard.pbix` — requires [Power BI Desktop](https://www.microsoft.com/en-us/power-platform/products/power-bi/desktop) (free) to open and refresh; for a quick look without installing anything, see the screenshot above.
 
-## 🤖 Note on AI-Assisted Workflow
-
-This project was completed with the assistance of DeepSeek and Claude as supporting tools throughout different stages:
-
-- **DeepSeek** — used more extensively during the analysis and visualization stage: comparing Python plotting libraries (Plotly, geopandas, folium) for different chart types, iterating on chart styling and layout options, and debugging code errors.
-- **Claude** — used primarily for structuring and drafting this README, and for troubleshooting data pipeline issues (e.g. Parquet type mismatches, GitHub raw-link setup).
-
-All analytical decisions — metric selection, interpretation of results, the A/B test hypotheses, and business conclusions — were made independently based on the underlying data.
-
 ## 📌 About the Data
 
 The dataset is anonymized CRM data (sourced from Kaggle) and contains no real customer personal data.
+
+---
+
+*Coursework project (dataset and scenario provided by the curriculum, German language required); some CRM fields mix Russian/English from the original ad campaigns; AI tools (DeepSeek, Claude) assisted with debugging, visualization choices, and this README — all analysis and conclusions are the author's own.*
 
 ---
 
