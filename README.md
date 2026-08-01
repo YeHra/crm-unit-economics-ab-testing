@@ -141,4 +141,4 @@ The dataset is anonymized CRM data (sourced from Kaggle) and contains no real cu
 
 ---
 
-*Author: [Name] · [LinkedIn] · [Email]*
+*Author: YeHra*
